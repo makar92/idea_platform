@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/idea_platform/static/css/main.e8bb5864.css",
+    "main.css": "/idea_platform/static/css/main.e723cef0.css",
     "main.js": "/idea_platform/static/js/main.f4bab41c.js",
     "index.html": "/idea_platform/index.html",
-    "main.e8bb5864.css.map": "/idea_platform/static/css/main.e8bb5864.css.map",
+    "main.e723cef0.css.map": "/idea_platform/static/css/main.e723cef0.css.map",
     "main.f4bab41c.js.map": "/idea_platform/static/js/main.f4bab41c.js.map"
   },
   "entrypoints": [
-    "static/css/main.e8bb5864.css",
+    "static/css/main.e723cef0.css",
     "static/js/main.f4bab41c.js"
   ]
 }
