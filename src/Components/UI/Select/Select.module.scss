@@ -1,0 +1,54 @@
+.container {
+    display: inline-flex;
+  }
+  
+  .label {
+    position: relative;
+
+    border: 2px solid #0087e7;
+    border-left: 1px solid #0087e7;
+    border-right: 1px solid #0087e7;
+
+    overflow: hidden;
+
+    &:first-child {
+      border-radius: 5px 0px 0px 5px;
+      border-left: 2px solid #0087e7;
+    }
+
+    &:last-child {
+      border-radius: 0px 5px 5px 0px;
+      border-right: 2px solid #0087e7;
+    }
+  }
+  
+  .input {
+    position: absolute;
+    opacity: 0;
+  }
+  
+  .button {
+    width: 70px;
+    height: 40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    cursor: pointer;
+    color: #0087e7;
+    background-color: #fff;    
+    
+    @media (min-width: 768px) {
+      &:hover {
+        background-color: #dceffc;
+      }
+    }
+  }
+  
+  .input:checked + .button {
+    color: #fff;
+    background-color: #0087e7;
+  }
+

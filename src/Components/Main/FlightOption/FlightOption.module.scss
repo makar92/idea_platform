@@ -1,0 +1,80 @@
+.flightOption {
+  width: 100%;
+
+  display: flex;
+  column-gap: 2px;
+
+  border-radius: 10px;
+  overflow: hidden;
+  background: #8e8e8e80;
+
+  -webkit-box-shadow: 0px 0px 10px 1px #00000080;
+  -moz-box-shadow: 0px 0px 10px 1px #00000080;
+  box-shadow: 0px 0px 10px 1px #00000080;
+}
+
+.leftBlock {
+  flex: 1 1 30%;
+  width: 100%;
+  padding: 20px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 20px;
+
+  background: #ffffff;
+}
+
+.logoCompany {
+  width: 100%;
+
+  & img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+}
+
+.rightBlock {
+  flex: 1 1 60%;
+
+  width: 100%;
+  padding: 20px;
+
+  background: #ffffff;
+}
+
+.info1 {
+  margin: 0px 0px 20px 0px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.time {
+  font-size: 36px;
+}
+
+.countStops {
+  text-transform: uppercase;
+}
+
+.info2 {
+  margin: 0px 0px 10px 0px;
+
+  display: flex;
+  justify-content: space-between;
+
+  font-weight: 600;
+}
+
+.sity {}
+
+.info3 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.date {}
